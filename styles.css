@@ -1,0 +1,51 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+
+}
+
+.calculator{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    background-color: rgb(15, 15, 15);
+    grid-column:span 4 ;
+    color: wheat;
+
+
+}
+
+.previous{
+    height:60px;
+    font-size: 30px;
+    text-align: right ;
+    padding-bottom: 10px;
+}
+
+.present{
+    height:100px;
+    font-size: 50px;
+    text-align: right ;
+}
+
+
+button{
+    height:60px;
+    color:#f0e6e6;
+    background: rgb(125, 147, 158);
+    font-size: medium; 
+}
+
+.biggy{
+    grid-column: span 2;
+}
