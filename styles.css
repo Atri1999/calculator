@@ -14,15 +14,13 @@ body{
     grid-template-rows: auto;
     justify-content: center;
     align-items: center;
-
 }
 
 .content{
     background-color: rgb(15, 15, 15);
     grid-column:span 4 ;
     color: wheat;
-
-
+    
 }
 
 .previous{
@@ -39,11 +37,14 @@ body{
 }
 
 
+
 button{
+
     height:60px;
     color:#f0e6e6;
     background: rgb(125, 147, 158);
-    font-size: medium; 
+    font-size: medium;
+    outline: none; 
 }
 
 .biggy{

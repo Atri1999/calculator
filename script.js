@@ -41,7 +41,7 @@ class calculator
 
     result(){
         if (this.operation!='' && this.presentNumber!='' && this.previousNumber!=''){
-            this.presentNumber=this.compute().toFixed(4)
+            this.presentNumber=this.compute().toFixed(2)
             this.previousNumber=''
             this.operation=''
         } 
